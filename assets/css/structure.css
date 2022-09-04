@@ -1042,7 +1042,7 @@ code { color: #e7515a; }
     fill: rgba(37, 213, 228, 0.29);
      }
     .topbar-nav.header nav#topbar ul.menu-categories li.menu.active > a > div svg.feather.feather-chevron-down { color: #e0e6ed; }
-    .topbar-nav.header nav#topbar ul.menu-categories li.menu.active > a > div span { color: #25d5e4; font-weight: 600; }
+    .topbar-nav.header nav#topbar ul.menu-categories li.menu.active > a > div * { color: #25d5e4; font-weight: 600; }
     .topbar-nav.header nav#topbar ul.menu-categories li.menu:hover .submenu {
         visibility: visible;
         opacity: 1;
