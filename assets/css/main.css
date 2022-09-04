@@ -1980,3 +1980,14 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
     overflow-y: scroll;
     overflow-x: hidden;
 }
+
+.w-info h5 {
+    font-size: 16px !important;
+}
+
+.w-icon i {
+    display: inline-block;
+    line-height: 1;
+    vertical-align: middle;
+    font-size: 24px;
+}
