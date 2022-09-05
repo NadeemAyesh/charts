@@ -125,7 +125,7 @@ code { color: #e7515a; }
 }
 .widget .widget-header:after { clear: both }
 .widget-content-area {
-    padding: 20px;
+    padding: 5px;
     position: relative;
     background-color: #0e1726;
     border-bottom-left-radius: 6px;
@@ -140,7 +140,7 @@ code { color: #e7515a; }
     border-color: #e0e6ed;
 }
 .layout-px-spacing {
-    padding: 0 32px!important;
+    padding: 0 10px!important;
 }
 /* 
 =====================
@@ -756,7 +756,7 @@ code { color: #e7515a; }
     Breadcrumb
 */
 .layout-top-spacing {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .page-title {
     float: none;
