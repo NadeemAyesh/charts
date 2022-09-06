@@ -2007,3 +2007,25 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
 .apexcharts-legend-text {
     font-size: 10px !important;
 }
+
+.fault-items li {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 5px;
+}
+
+.fault-items li.text-danger {
+    border: 2px solid var(--danger);
+}
+
+.fault-items li.text-warning {
+    border: 2px solid var(--warning);
+}
+
+.fault-items li.text-success {
+    border: 2px solid var(--success);
+}
