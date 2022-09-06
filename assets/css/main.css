@@ -2009,7 +2009,8 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
 }
 
 .fault-items li {
-    padding: 0 10px;
+    padding: 0 5px;
+    text-align: center;
 }
 
 .fault-items li span {
@@ -2019,7 +2020,7 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
     border-radius: 50%;
     text-align: center;
     font-weight: 600;
-    margin: 0 5px;
+    margin: 3px 5px 0 5px;
     display: block;
 }
 
