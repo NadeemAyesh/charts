@@ -198,7 +198,9 @@
 			<nav id="topbar">
 				<div class="d-flex justify-content-between align-items-center">
 					<a href="index-2.html" style="font-size: 16px;">
-						<img src="assets/img/QF-logo-1-1.png" class="navbar-logo" alt="logo" height="50" />
+						<img src="assets/img/QF-logo-1-1.png" class="navbar-logo" alt="logo" height="50" style="background: #FFF;
+						border-radius: 5px;
+						padding: 5px;" />
 					</a>
 					<ul class="list-unstyled menu-categories justify-content-center" id="topAccordion">
 						<li class="menu single-menu">
@@ -320,26 +322,44 @@
 												<td>
 													<p>Fault Type</p>
 													<ul class="nav fault-items">
-														<li class="text-danger">15</li>
-														<li class="text-warning">20</li>
-														<li class="text-success">30</li>
+														<li class="text-danger">
+															Critical
+															<span>15</span>
+														</li>
+														<li class="text-warning">
+															Minor
+															<span>15</span>
+														</li>
+														<li class="text-success">
+															Normal
+															<span>15</span>
+														</li>
 													</ul>
 												</td>
 												<td>
 													<p>Building Capacity</p>
-													<div class="progress mb-2">
-														<div class="progress-bar bg-gradient-primary" role="progressbar"
-															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
-															aria-valuemax="100"></div>
+													<div class="d-flex">
+														<span class="text-danger">Electr.</span>
+														<div class="progress mb-2 mx-2">
+															<div class="progress-bar bg-gradient-danger"
+																role="progressbar" style="width: 57%" aria-valuenow="57"
+																aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+														<span class="text-danger">57%</span>
 													</div>
-													<div class="progress">
-														<div class="progress-bar bg-gradient-primary" role="progressbar"
-															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
-															aria-valuemax="100"></div>
+													<div class="d-flex">
+														<span class="text-primary">Cooling</span>
+														<div class="progress mb-2 mx-2">
+															<div class="progress-bar bg-gradient-primary"
+																role="progressbar" style="width: 57%" aria-valuenow="57"
+																aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+														<span class="text-primary">57%</span>
 													</div>
 												</td>
-												<td style="width: 250px;">
+												<td style="width: 250px; text-align: center;">
 													<div id="radial-chart-table" class="chart-in-table"></div>
+													<p class="mb-0 text-primary">Ocupancy Level</p>
 												</td>
 											</tr>
 											<tr>
@@ -349,9 +369,18 @@
 												<td>
 													<p>Fault Type</p>
 													<ul class="nav fault-items">
-														<li class="text-danger">15</li>
-														<li class="text-warning">20</li>
-														<li class="text-success">30</li>
+														<li class="text-danger">
+															Critical
+															<span>15</span>
+														</li>
+														<li class="text-warning">
+															Minor
+															<span>15</span>
+														</li>
+														<li class="text-success">
+															Normal
+															<span>15</span>
+														</li>
 													</ul>
 												</td>
 												<td>
@@ -367,8 +396,9 @@
 															aria-valuemax="100"></div>
 													</div>
 												</td>
-												<td style="width: 250px;">
+												<td style="width: 250px; text-align: center;">
 													<div id="radial-chart-table2" class="chart-in-table"></div>
+													<p class="mb-0 text-primary">Ocupancy Level</p>
 												</td>
 											</tr>
 											<tr>
@@ -378,9 +408,18 @@
 												<td>
 													<p>Fault Type</p>
 													<ul class="nav fault-items">
-														<li class="text-danger">15</li>
-														<li class="text-warning">20</li>
-														<li class="text-success">30</li>
+														<li class="text-danger">
+															Critical
+															<span>15</span>
+														</li>
+														<li class="text-warning">
+															Minor
+															<span>15</span>
+														</li>
+														<li class="text-success">
+															Normal
+															<span>15</span>
+														</li>
 													</ul>
 												</td>
 												<td>
@@ -396,8 +435,9 @@
 															aria-valuemax="100"></div>
 													</div>
 												</td>
-												<td style="width: 250px;">
+												<td style="width: 250px; text-align: center;">
 													<div id="radial-chart-table3" class="chart-in-table"></div>
+													<p class="mb-0 text-primary">Ocupancy Level</p>
 												</td>
 											</tr>
 										</table>
@@ -408,27 +448,25 @@
 										<table class="table table-borderless">
 											<tr>
 												<td>
-													Building 4
+													Booster Bump
 												</td>
 												<td>
-													<p>Fault Type</p>
-													<ul class="nav fault-items">
-														<li class="text-danger">15</li>
-														<li class="text-warning">20</li>
-														<li class="text-success">30</li>
-													</ul>
+													<p>Run Time</p>
+													<b>180 Hrs</b>
+												</td>
+												<td>
+													<p>Total Fault</p>
+													<b class="text-danger">180</b>
 												</td>
 												<td>
 													<p>Building Capacity</p>
-													<div class="progress mb-2">
-														<div class="progress-bar bg-gradient-primary" role="progressbar"
-															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
-															aria-valuemax="100"></div>
-													</div>
-													<div class="progress">
-														<div class="progress-bar bg-gradient-primary" role="progressbar"
-															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
-															aria-valuemax="100"></div>
+													<div class="d-flex">
+														<div class="progress mb-2">
+															<div class="progress-bar bg-gradient-primary"
+																role="progressbar" style="width: 57%" aria-valuenow="57"
+																aria-valuemin="0" aria-valuemax="100"></div>
+														</div>
+														<span class="text-success">57%</span>
 													</div>
 												</td>
 												<td style="width: 250px;">
@@ -440,21 +478,16 @@
 													Building 4
 												</td>
 												<td>
-													<p>Fault Type</p>
-													<ul class="nav fault-items">
-														<li class="text-danger">15</li>
-														<li class="text-warning">20</li>
-														<li class="text-success">30</li>
-													</ul>
+													<p>Run Time</p>
+													<b>180 Hrs</b>
+												</td>
+												<td>
+													<p>Total Fault</p>
+													<b class="text-danger">180</b>
 												</td>
 												<td>
 													<p>Building Capacity</p>
 													<div class="progress mb-2">
-														<div class="progress-bar bg-gradient-primary" role="progressbar"
-															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
-															aria-valuemax="100"></div>
-													</div>
-													<div class="progress">
 														<div class="progress-bar bg-gradient-primary" role="progressbar"
 															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
 															aria-valuemax="100"></div>
@@ -469,21 +502,16 @@
 													Building 4
 												</td>
 												<td>
-													<p>Fault Type</p>
-													<ul class="nav fault-items">
-														<li class="text-danger">15</li>
-														<li class="text-warning">20</li>
-														<li class="text-success">30</li>
-													</ul>
+													<p>Run Time</p>
+													<b>180 Hrs</b>
+												</td>
+												<td>
+													<p>Total Fault</p>
+													<b class="text-danger">180</b>
 												</td>
 												<td>
 													<p>Building Capacity</p>
 													<div class="progress mb-2">
-														<div class="progress-bar bg-gradient-primary" role="progressbar"
-															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
-															aria-valuemax="100"></div>
-													</div>
-													<div class="progress">
 														<div class="progress-bar bg-gradient-primary" role="progressbar"
 															style="width: 57%" aria-valuenow="57" aria-valuemin="0"
 															aria-valuemax="100"></div>
@@ -525,14 +553,6 @@
 									<div id="chart-optionsAreaGradiend" class=""></div>
 								</div>
 							</div>
-
-							<!-- <div class="col-xl-6 col-lg-4 col-md-4 col-sm-4 col-12">
-								
-							</div>
-
-							<div class="col-xl-3 col-lg-4 col-md-4 col-sm-8 col-12">
-								
-							</div> -->
 
 						</div>
 
@@ -582,7 +602,7 @@
 					}
 				},
 			},
-			labels: ['Cricket'],
+			labels: ['860 Occ'],
 		};
 
 		var chart = new ApexCharts(document.querySelector("#radial-chart-table"), options);
@@ -604,6 +624,10 @@
 			chart: {
 				type: 'bar',
 				height: 230
+			},
+			title: {
+				text: 'Energy Utilization Index',
+				posiiton: 'left'
 			},
 			plotOptions: {
 				bar: {
@@ -638,7 +662,52 @@
 		var chart = new ApexCharts(document.querySelector("#chart-bar"), options);
 		chart.render();
 
-		var chart2 = new ApexCharts(document.querySelector("#chart-bar2"), options);
+		
+		var options22 = {
+			series: [{
+				data: [44, 55, 41, 64, 22, 43, 21]
+			}, {
+				data: [53, 32, 33, 52, 13, 44, 32]
+			}],
+			chart: {
+				type: 'bar',
+				height: 230
+			},
+			title: {
+				text: 'Cost Utilization Index',
+				posiiton: 'left'
+			},
+			plotOptions: {
+				bar: {
+					horizontal: true,
+					dataLabels: {
+						position: 'top',
+					},
+				}
+			},
+			dataLabels: {
+				enabled: true,
+				offsetX: -6,
+				style: {
+					fontSize: '12px',
+					colors: ['#fff']
+				}
+			},
+			stroke: {
+				show: true,
+				width: 1,
+				colors: ['#fff']
+			},
+			tooltip: {
+				shared: true,
+				intersect: false
+			},
+			xaxis: {
+				categories: [2001, 2002, 2003, 2004, 2005, 2006, 2007],
+			},
+		};
+
+		var chart2 = new ApexCharts(document.querySelector("#chart-bar2"), options22);
 		chart2.render();
 
 		//------------------
@@ -680,144 +749,132 @@
 		chart2.render();
 
 		var optionsAreaGradiend = {
-  series: [
-    {
-      data: [10, 20, 15, 30, 35, 30, 45, 59, 30, 35, 25, 29, 15]
-    }
-  ],
-  chart: {
-    type: "area",
-    height: 200,
-    background: "#19191E",
-    dropShadow: {
-      enabled: true,
-      color: "#000"
-    },
-    zoom: {
-      enabled: false
-    }
-  },
-  dataLabels: {
-    enabled: false
-  },
-  markers: {
-    colors: ["#FFFFFF"]
-  },
-  stroke: {
-    curve: "smooth",
-    width: 3,
-    fill: {
-      type: "gradient",
-      gradient: {
-        type: "horizontal",
-        colorStops: [
-          [
-            {
-              offset: 0,
-              color: "#0085FF",
-              opacity: 1
-            },
-            {
-              offset: 33,
-              color: "#FF2E92",
-              opacity: 1
-            },
-            {
-              offset: 80,
-              color: "#FFAC2F",
-              opacity: 1
-            },
-            {
-              offset: 99,
-              color: "#FFFFFF",
-              opacity: 1
-            }
-          ]
-        ]
-      }
-    }
-  },
-  fill: {
-    type: "gradient",
-    gradient: {
-      shadeIntensity: 1,
-      type: "vertical",
-      colorStops: [
-        [
-          {
-            offset: 0,
-            color: "#F48116",
-            opacity: 1.0
-          },
-          {
-            offset: 70,
-            color: "#6510F8",
-            opacity: 0.2
-          },
-          {
-            offset: 97,
-            color: "#6510F8",
-            opacity: 0.0
-          }
-        ]
-      ]
-    }
-  },
-  xaxis: {
-    axisBorder: {
-      show: false
-    },
-    axisTicks: {
-      show: false
-    },
-    labels: {
-      style: {
-        colors: "#aaa"
-      }
-    }
-  },
-  yaxis: {
-    labels: {
-      show: false
-    }
-  },
-  grid: {
-    borderColor: "#222226"
-  },
-  legend: {
-    horizontalAlign: "left"
-  },
-  theme: {
-    mode: "dark"
-  }
-};
-
-var chartoptionsAreaGradiend = new ApexCharts(document.querySelector("#chart-optionsAreaGradiend"), optionsAreaGradiend);
-chartoptionsAreaGradiend.render();
-
-var optionsPie = {
-			series: [560, 450, 320, 250],
+			series: [
+				{
+					data: [10, 20, 15, 30, 35, 30, 45, 59, 30, 35, 25, 29, 15]
+				},
+			],
 			chart: {
-				height: 270,
-				type: 'pie',
+				type: "area",
+				height: 200,
+				background: "#19191E",
+				dropShadow: {
+					enabled: true,
+					color: "#000"
+				},
+				zoom: {
+					enabled: false
+				}
 			},
-			// Toyota: 560, Nissan:450, mercedes:320, BMW:250
-			labels: ['Toyota', 'Nissan', 'mercedes', 'BMW'],
-			title: {
-				text: 'Daily Car Brand Name',
-				align: 'left'
+			dataLabels: {
+				enabled: false
 			},
-			responsive: [{
-				breakpoint: 480,
-				options: {
-					chart: {
-						height: 200,
-					},
-					legend: {
-						position: 'bottom'
+			markers: {
+				colors: ["#FFFFFF"]
+			},
+			stroke: {
+				curve: "smooth",
+				width: 3,
+				fill: {
+					type: "gradient",
+					gradient: {
+						type: "horizontal",
+						colorStops: [
+							[
+								{
+									offset: 0,
+									color: "#0085FF",
+									opacity: 1
+								},
+								{
+									offset: 33,
+									color: "#FF2E92",
+									opacity: 1
+								},
+								{
+									offset: 80,
+									color: "#FFAC2F",
+									opacity: 1
+								},
+								{
+									offset: 99,
+									color: "#FFFFFF",
+									opacity: 1
+								}
+							]
+						]
 					}
 				}
-			}]
+			},
+			fill: {
+				type: "gradient",
+				gradient: {
+					shadeIntensity: 1,
+					type: "horizontal",
+					colorStops: [
+						[
+							{
+								offset: 0,
+								color: "green",
+								opacity: 1.0
+							},
+						]
+					]
+				}
+			},
+			xaxis: {
+				axisBorder: {
+					show: false
+				},
+				axisTicks: {
+					show: false
+				},
+				labels: {
+					style: {
+						colors: "#aaa"
+					}
+				}
+			},
+			yaxis: {
+				labels: {
+					show: false
+				}
+			},
+			grid: {
+				borderColor: "#222226"
+			},
+			legend: {
+				horizontalAlign: "left"
+			},
+			theme: {
+				mode: "dark"
+			}
+		};
+
+		var chartoptionsAreaGradiend = new ApexCharts(document.querySelector("#chart-optionsAreaGradiend"), optionsAreaGradiend);
+		chartoptionsAreaGradiend.render();
+
+		var optionsPie = {
+			series: [{
+				data: [400, 430, 448, 470, 540, 580, 690, 1100, 1200, 1380]
+			}],
+			chart: {
+				type: 'bar',
+				height: 255
+			},
+			plotOptions: {
+				bar: {
+					borderRadius: 4,
+					horizontal: true,
+				}
+			},
+			dataLabels: {
+				enabled: false
+			},
+			xaxis: {
+				categories: ['Chillers (25 mWh)', 'FAHU (25 mWh)', 'Package Unites (25 mWh)', 'Bimps (25 mWh)', 'CCU (25 mWh)'
+				],
+			}
 		};
 
 		var chartPie = new ApexCharts(document.querySelector("#chart-pie"), optionsPie);

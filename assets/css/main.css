@@ -2009,6 +2009,10 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
 }
 
 .fault-items li {
+    padding: 0 10px;
+}
+
+.fault-items li span {
     width: 40px;
     height: 40px;
     line-height: 40px;
@@ -2016,16 +2020,17 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
     text-align: center;
     font-weight: 600;
     margin: 0 5px;
+    display: block;
 }
 
-.fault-items li.text-danger {
+.fault-items li.text-danger span {
     border: 2px solid var(--danger);
 }
 
-.fault-items li.text-warning {
+.fault-items li.text-warning span {
     border: 2px solid var(--warning);
 }
 
-.fault-items li.text-success {
+.fault-items li.text-success span {
     border: 2px solid var(--success);
 }
