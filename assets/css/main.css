@@ -2035,3 +2035,91 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
 .fault-items li.text-success span {
     border: 2px solid var(--success);
 }
+
+.map-img {
+    height: 373px;
+    background-color: #202021;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.map-img img {
+    object-fit: fill; 
+    width: 100%; 
+    height: 100%; 
+    object-position: bottom;
+}
+
+.map-img ul {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.circle-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(255, 81, 90, 0.888);
+}
+
+.pon {
+    top: 158px;
+    left: 213px;
+}
+
+.pon-1 {
+    top: 128px;
+    left: 323px;
+}
+
+.pon-2 {
+    top: auto;
+    bottom: 35px;
+    left: 532px;
+}
+
+.pon-3 {
+    top: auto;
+    bottom: 60px;
+    left: 632px;
+}
+
+.pon-4 {
+    top: auto;
+    bottom: 83px;
+    left: 695px;
+}
+
+.pon-5 {
+    top: auto;
+    bottom: 100px;
+    left: 759px;
+}
+
+.pon-6 {
+    top: auto;
+    bottom: 79px;
+    left: 822px;
+}
+
+.pon-7 {
+    top: auto;
+    bottom: 218px;
+    left: auto;
+    right: 115px;
+}
+
+.pon-8 {
+    top: 42px;
+    bottom: auto;
+    left: auto;
+    right: 429px;
+}
