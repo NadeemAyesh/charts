@@ -2041,6 +2041,7 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
     background-color: #202021;
     position: relative;
     margin-bottom: 0;
+    width: 871px;
 }
 
 .map-img img {
@@ -2072,54 +2073,54 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
 
 .pon {
     top: 158px;
-    left: 213px;
+    left: 170px;
 }
 
 .pon-1 {
     top: 128px;
-    left: 323px;
+    left: 258px;
 }
 
 .pon-2 {
     top: auto;
-    bottom: 35px;
-    left: 532px;
+    bottom: 62px;
+    left: 513px;
 }
 
 .pon-3 {
     top: auto;
-    bottom: 60px;
-    left: 632px;
+    bottom: 83px;
+    left: 567px;
 }
 
 .pon-4 {
     top: auto;
-    bottom: 83px;
-    left: 695px;
+    bottom: 100px;
+    left: 623px;
 }
 
 .pon-5 {
     top: auto;
-    bottom: 100px;
-    left: 759px;
+    bottom: 84px;
+    left: 699px;
 }
 
 .pon-6 {
     top: auto;
-    bottom: 79px;
-    left: 822px;
+    bottom: 35px;
+    left: 425px;
 }
 
 .pon-7 {
     top: auto;
-    bottom: 218px;
+    bottom: 200px;
     left: auto;
-    right: 115px;
+    right: 103px;
 }
 
 .pon-8 {
     top: 42px;
     bottom: auto;
     left: auto;
-    right: 429px;
+    right: 344px;
 }
