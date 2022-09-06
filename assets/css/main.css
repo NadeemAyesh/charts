@@ -1871,7 +1871,7 @@ table .badge-info, table .badge-secondary, table .badge-dark  {
 
 .car-type-list {
     position: relative;
-    height: 416px;
+    height: 343px;
     overflow-x: hidden;
     overflow-y: scroll;
 }
